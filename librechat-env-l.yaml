@@ -24,7 +24,7 @@ interface:
       ## Introduction
       Welcome to ZENTEK Chat!
   endpointsMenu: true
-  modelSelect: false
+  modelSelect: true
   parameters: true
   sidePanel: true
   presets: false
