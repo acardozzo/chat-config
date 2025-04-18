@@ -11,6 +11,28 @@ registration:
     - "openid"
     
 interface:
+  privacyPolicy:
+    externalUrl: "https://example.com/privacy"
+    openNewTab: true
+  termsOfService:
+    externalUrl: "https://example.com/terms"
+    openNewTab: true
+    modalAcceptance: true
+    modalTitle: "Terms of Service"
+    modalContent: |
+      # Terms of Service
+      ## Introduction
+      Welcome to ZENTEK Chat!
+  endpointsMenu: true
+  modelSelect: false
+  parameters: true
+  sidePanel: true
+  presets: false
+  prompts: true
+  bookmarks: true
+  multiConvo: true
+  agents: true
+  customWelcome: "Hey {{user.name}}! Welcome to ZENTEK Chat"
   runCode: false
   
 endpoints:
