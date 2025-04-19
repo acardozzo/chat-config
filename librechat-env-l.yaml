@@ -25,12 +25,12 @@ interface:
   #     Welcome to ZENTEK Chat!
   # endpointsMenu: true
   # modelSelect: true
-  # parameters: true
+  parameters: false
   # sidePanel: true
   # presets: false
   # prompts: true
   # bookmarks: true
-  # multiConvo: true
+  multiConvo: false
   # agents: true
   # customWelcome: "Hey {{user.name}}! Welcome to ZENTEK Chat"
   runCode: false
